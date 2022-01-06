@@ -11,6 +11,8 @@ const prompt = `UK Government outline business case`;
     "frequency_penalty": 0,
     "presence_penalty": 0
   };
+// Create environment variable with OPENAI_SECRET_KEY using AI key
+// https://www.wikihow.com/Create-an-Environment-Variable-in-Windows-10
   const headers = {
     'Authorization': `Bearer ${process.env.OPENAI_SECRET_KEY}`,
   };
